@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: "Trirong", serif; */
+}
+body{
+    background-color: #4e4cff;
+    
+}
+h1{
+    text-align: center;
+    margin: 50px 0px 30px 0px;
+    color: yellow;
+}
+.place{
+    display: flex;
+  /* justify-content: space-between;
+  align-items: center; */
+  background-color: rgb(240, 230, 230);
+  border-radius: 20px 20px 0 0;
+}
+#month{
+    /* background-color: rgb(240, 230, 230); */
+    color: black;
+    height: 30px;
+    width: 180px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 7px;
+    border: 1px solid black;
+}
+#time{
+    /* background-color: rgb(240, 230, 230); */
+    color: black;
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 20px 0 0 ;
+    border: 1px solid black;
+
+}
+#day{
+    /* background-color: rgb(240, 230, 230); */
+    color: black;
+    height: 30px;
+    width: 100px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:  20px 0 0 0;
+    border: 1px solid black;
+
+}
+.container{
+    background-color: white;
+    /* color: white; */
+    min-height: 40vh;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px auto;
+    
+    border-radius: 20px;
+   
+}
+.task{
+    height: 100px;
+}
+.display{
+    min-height: 10vh;
+    width: 350px;
+}
+.item{
+    height: 35px;
+    width:300px;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 2px solid red;
+    font-size: 25px;
+}
+.add{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 2px solid black;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #4e4cff;
+    color: white;
+}
+.displayitem{
+    min-height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    margin: 10px 0;
+    padding: 0 5px;
+    font-size: 25px;
+    border-radius: 5px;
+    background-color: rgb(240, 230, 230);
+}
+.taskcheck{
+    height: 25px;
+    width: 25px;
+}
+.delete{
+    height: 38px;
+    width: 38px;
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.taskcheck:checked+.tasktext {
+    text-decoration: line-through;
+}
+h2{
+    color: red;
+    opacity: 0;
+}
+button{
+    cursor: pointer;
+}
